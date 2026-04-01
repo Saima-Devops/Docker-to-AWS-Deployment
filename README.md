@@ -1,19 +1,26 @@
-# node-todo-cicd
+# Docker to AWS Deployment | ECS + ECR Real-World Project 
 
-Run these commands:
+## A Node.js-based Todo List
 
+### Step#1: Launch an EC2 for Docker
 
-`sudo apt install nodejs`
+1. Create a simple EC2 with Ubuntu OS
+2. t2.micro (free-tier)
+3. No inbound Rules needed except SSH
+4. Create Instance
 
+----
 
-`sudo apt install npm`
+###  Step#2: Connect EC2 with SSH Client
 
+1. Copy the ssh command and paste into ssh client (like Putty, MobaXterm, iTerm etc..)
+2. update the server.
+```bash
+sudo apt update
+```
+----
 
-`npm install`
+###  Step#3: Clone the entire code base of your project: 
 
-`node app.js`
-
-or Run by docker compose
-
-test
+git clone <repo link>
 
