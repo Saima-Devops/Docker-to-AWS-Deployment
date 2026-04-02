@@ -375,11 +375,14 @@ Select the **Public IP** address and open with port# **8000**
 
 <img width="1894" height="512" alt="image" src="https://github.com/user-attachments/assets/deec9875-d72f-4164-a57c-12ac1c098b88" />
 
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/d14d33a2-3bfd-48f0-bede-f2966ad6d24d" />
+
+
 ----
 
 #### Troubleshooting:
 
-if your app is not opening :
+**Case# 01: If your app is not opening:**
 
 Select `ENI ID`
 
@@ -396,6 +399,27 @@ Select **Security Group** edit **Inbound Rules** and **add port 8000** as custom
 <img width="1906" height="638" alt="image" src="https://github.com/user-attachments/assets/1168a26a-96d8-49b6-82ef-6c7729b59bf1" />
 
 ----
+
+
+
+**Case# 02: If you the Code base has been changed by dev team**
+
+**Redeploy (same as before)**
+
+After changes:
+
+```bash
+docker build -t node-app .
+docker tag node-app:latest 121846058867.dkr.ecr.ap-south-1.amazonaws.com/node-app:latest
+docker push 121846058867.dkr.ecr.ap-south-1.amazonaws.com/node-app:latest
+```
+
+Then:
+
+- New ECS task revision
+- Update service
+
+---
 
 ✅Done!
 
