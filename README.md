@@ -375,14 +375,17 @@ Select the **Public IP** address and open with port# **8000**
 
 <img width="1894" height="512" alt="image" src="https://github.com/user-attachments/assets/deec9875-d72f-4164-a57c-12ac1c098b88" />
 
+<img width="1919" height="518" alt="image" src="https://github.com/user-attachments/assets/d30ca038-bab0-4002-a141-1651c1df249b" />
+
+
 <img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/d14d33a2-3bfd-48f0-bede-f2966ad6d24d" />
 
 
 ----
 
-#### Troubleshooting:
+## Troubleshooting:
 
-**Case# 01: If your app is not opening:**
+#### Case# 01: If your app is not opening or working in the browser:
 
 Select `ENI ID`
 
@@ -402,7 +405,7 @@ Select **Security Group** edit **Inbound Rules** and **add port 8000** as custom
 
 
 
-**Case# 02: If you the Code base has been changed by dev team**
+ #### Case# 02: If you the Code base has been changed by dev team
 
 **Redeploy (same as before)**
 
