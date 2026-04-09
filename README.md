@@ -1,6 +1,6 @@
 # Docker to AWS Deployment | ECS + ECR Real-World Project 
 
-## A Node.js-based Todo List
+## A Node.js-based Todo List Application 
 
 ### Step#1: Launch an EC2 for Docker
 
