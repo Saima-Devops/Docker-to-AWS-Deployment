@@ -248,7 +248,7 @@ Create a **Cluster**
 
 ###  Step#9: How to Create a Task Definition
 
-Now there's no task running:
+Right now there's no task running:
 
 ---
 
@@ -447,6 +447,12 @@ Select the Logs for **Node Cluster Performance**
 ---
 
 <img width="1911" height="812" alt="image" src="https://github.com/user-attachments/assets/6abfe26e-809c-410e-8c2e-8a51eb0911a3" />
+
+----
+
+## Author
+**Saima Usman** \
+Jr. DevOps & Cloud Engineer 
 
 <img width="1529" height="378" alt="image" src="https://github.com/user-attachments/assets/416ba359-3206-445b-90c2-eb64a02af4a5" />
 
